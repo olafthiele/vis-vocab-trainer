@@ -1,0 +1,35 @@
+<template name="ColorWordLayout">
+  <main>
+    <div class="colorWrapper">
+
+      <div class="colorHeader">
+          {{#each words}} {{> RenderColorRowLayout}} {{/each}}
+      </div>
+
+    <div class="colorWord" style="background-color: {{color}};" >
+      <div class="sidecol prev"><a href="./word?goto={{previous}}"><img src="images/prev.png" style="width: 15%;"></a></div>
+        {{ #if showOriginal }}
+        <div class="content originalWord">
+          {{original}}
+        </div>
+        {{ else}}
+        <div class="content translatedWord">
+          {{translation}} <a href="https://translate.google.com/#da/de/{{encTranslation}}" target='_blank'><img src="images/listen.png" style="width: 32px;"></a>
+          {{#if extra}}
+            <br /><br />
+            {{extra}}
+          {{/if}}
+        </div>
+        {{/if}}
+      <div class="sidecol next"><a href="./word?goto={{next}}"><img src="images/next.png" style="width: 15%;"></a></div>
+    </div>
+    </div>
+    <div class="settings"><a href="/settings"><img src="images/menu.png"  height="30vh;"></a></div>
+  </main>
+</template>
+
+
+<template name="RenderColorRowLayout">
+  <div class="colorMiniRow" style="background-color: {{color}};">
+  </div>
+</template>

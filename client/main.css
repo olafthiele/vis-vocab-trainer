@@ -1,0 +1,148 @@
+/* CSS declarations go here */
+
+@font-face {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Spectral'), local('Spectral-Regular'), url('fonts/spectral-reg-latin.woff2') format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+html, body {
+    height: 100vh;
+    font-family: 'Spectral', Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+
+.colorwrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.colorwrapper a {
+    height: 100vh;
+    display: table-cell;
+}
+
+.colorwrapper div {
+    height: 100vh;
+}
+
+
+/*.colorWord {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+.sidecol {
+    width: 20%;
+    display: table-cell;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    width: 60%;
+    display: table-cell;
+    height: 100vh;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 400%;
+}*/
+
+.originalWord {}
+
+.translatedWord {
+    background-image: repeating-linear-gradient(-45deg, transparent, transparent 15px, rgba(255, 255, 255, 0.3) 15px, rgba(255, 255, 255, 0.3) 30px);
+}
+
+.settings {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+
+/*
+New design
+
+
+.colorWrapper {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    height: 100vh;
+}
+*/
+
+.colorHeader {
+    display: table;
+    width: 100%;
+    height: 20vh;
+}
+
+.colorMiniRow {
+    display: table-cell;
+    width: 5%;
+    height: 20vh;
+}
+
+.colorWord {
+    display: table;
+    width: 100%;
+    height: 80vh;
+}
+
+.sidecol {
+    width: 20%;
+    display: table-cell;
+    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    width: 60%;
+    display: table-cell;
+    height: 80vh;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 400%;
+}
+
+
+/* New settings design */
+
+.pagina {
+    width: 100%;
+    height: 100vh;
+    padding: 1%;
+}
+
+.linha {
+    width: auto;
+    padding: 0.5%;
+    height: auto;
+    display: table;
+}
+
+.tile {
+    height: 6em;
+    width: 6em;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 6em;
+    font-size: 200%;
+}
+
+.tileLarge {
+    width: 12em;
+}

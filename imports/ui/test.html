@@ -1,0 +1,20 @@
+<template name="TestLayout">
+  <main>
+    <div>
+      Options:
+      <br /><br /><a href='/'>Show main screen</a>
+      <br /><br /><button class='changeLang'>Change language to {{newLang}}</button>
+      <br /><br /><button class='change20'>Change to 20 words</button>
+      <br /><br /><button class='change50'>Change to 50 words</button>
+      <br /><br /><button class='changeColors'>Change colors </button>
+      <br /><br />
+      Testing:
+      <br /><br /><button class='check'>Check vocabulary for inconsistencies</button>
+      <br /><br /><a href='/classic'>Show all words in list</a>
+      <br /><br />
+      <div>
+        {{content}}
+      </div>
+    </div>
+  </main>
+</template>

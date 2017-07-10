@@ -1,0 +1,19 @@
+<template name="HomeLayout">
+  <header>
+    <h2>Home</h2>
+  </header>
+  <main>
+    Test:
+    <ol>
+      {{#each aword}} {{> RenderWordLayout}} {{/each}}
+    </ol>
+  </main>
+</template>
+
+
+<!-- <template name="info">
+  <h2>Learn Meteor!</h2>
+  <ul>
+    <li><a href="https://www.meteor.com/try" target="_blank">Do the Tutorial</a></li>
+  </ul>
+</template> -->

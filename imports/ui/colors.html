@@ -1,0 +1,14 @@
+<template name="ColorsLayout">
+  <main>
+  <div class='colorwrapper'>
+    {{#each words}} {{> RenderColorLayout}} {{/each}}
+  </div>
+  </main>
+</template>
+
+<template name="RenderColorLayout">
+  <a href="./word?goto={{pageCode}}">
+    <div style="background-color: {{color}};">
+    </div>
+  </a>
+</template>

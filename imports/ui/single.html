@@ -1,0 +1,17 @@
+<template name="SingleLayout">
+  <header>
+    <h2>Single</h2>
+  </header>
+  <main>
+  <div>
+    <span class='nav'><a href="/">Back</a></span>
+    <span class='prev'><a href="./single?goto={{previous}}">Previous</a></span>
+    <span class='next'><a href="./single?goto={{next}}">Next</a></span>
+  </div>
+    <div class="single_word">
+      <span class="text">Orig: {{original}}</span>
+      <span class="text">Trans: {{translation}}</span>
+      <span class="text">Type: {{type}}</span>
+    </div>
+  </main>
+</template>

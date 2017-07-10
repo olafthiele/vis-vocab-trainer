@@ -1,0 +1,29 @@
+<template name="SettingsLayout">
+  <main>
+ <!-- Thanks http://mrbool.com/creating-a-metro-style-menu-in-html-and-css -->
+    <div class="pagina" style="background: {{getColor 'type5'}} ;">
+        <div class="linha">
+          <div class="tile" style="background-color: {{getColor 'type1'}} ;">
+            <a href='/'>Home aa</a>
+          </div>
+            <div class="tile tileLarge changeColors" style="background-color: {{getColor 'type2'}} ;">
+              Change colors
+            </div>
+            <div class="tile xxx" style="background-color: {{getColor 'type1'}} ;">
+              Level
+            </div>
+      </div>
+        <div class="linha">
+            <div class="tile tileLarge" style="background-color: {{getColor 'type3'}} ;">
+              {{content}}
+            </div>
+            <div class="tile change50" style="background-color: {{getColor 'type4'}} ;">
+                50 words
+            </div>
+            <div class="tile change20" style="background-color: {{getColor 'type4'}} ;">
+                 20 words
+            </div>
+        </div>
+    </div>
+  </main>
+</template>
