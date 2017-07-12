@@ -10,29 +10,28 @@ Template.SettingsLayout.onCreated( function() {
 } );
 
 Template.SettingsLayout.events( {
-  'click .check' ( event, template ) {
-    console.log( 'Starting check' );
-    template.content.set( Repo.checkAllWords() );
-  },
 
   'click .changeLang' ( event, template ) {
-    console.log( 'Switch language' );
     Common.switchLanguage();
+    template.content.set( 'Switched language' );
   },
 
   'click .change20' ( event, template ) {
-    console.log( 'Change to 20' );
     Session.set( 'numberOfVocabs', 20 );
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+    template.content.set( 'Changed to 20 words' );
   },
 
   'click .change50' ( event, template ) {
-    console.log( 'Change to 50' );
     Session.set( 'numberOfVocabs', 50 );
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+    template.content.set( 'Changed to 50 words' );
   },
 
   'click .changeColors' ( event, template ) {
     console.log( 'Changing to other color' );
     Common.switchColor();
+    template.content.set( 'Switched colors' );
     // $( "head" ).append( '<style>.type1 { background-color: purple !important }</style>' );
   },
 
