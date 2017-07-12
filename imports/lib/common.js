@@ -1,4 +1,6 @@
 import '../data/all_colors.js';
+import '../data/all_i18ns.js';
+import { Repo } from '../data/getWord.js';
 
 class CommonFunctions {
 
@@ -9,6 +11,17 @@ class CommonFunctions {
     } else {
       Session.set( 'language', 'en' );
     }
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+  }
+
+  setWordNumber( nr ) {
+    Session.set( 'numberOfVocabs', nr );
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+  }
+
+  getIntWord( key ) {
+    var lang = Session.get( 'language' );
+    return i18ns[ key ][ lang ];
   }
 
   setColors( nr ) {

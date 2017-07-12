@@ -17,15 +17,13 @@ Template.SettingsLayout.events( {
   },
 
   'click .change20' ( event, template ) {
-    Session.set( 'numberOfVocabs', 20 );
-    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+    Common.setWordNumber( 20 );
     template.content.set( 'Changed to 20 words' );
   },
 
-  'click .change50' ( event, template ) {
-    Session.set( 'numberOfVocabs', 50 );
-    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
-    template.content.set( 'Changed to 50 words' );
+  'click .change30' ( event, template ) {
+    Common.setWordNumber( 30 );
+    template.content.set( 'Changed to 30 words' );
   },
 
   'click .changeColors' ( event, template ) {
@@ -48,7 +46,13 @@ Template.SettingsLayout.helpers( {
   },
 
   getColor: function( color ) {
-    console.log( 'color gesucht: ' + color );
+    // console.log( 'color gesucht: ' + color );
     return Session.get( 'colors' )[ color ];
   },
+
+  getIntWord: function( key ) {
+    // console.log( 'key gesucht: ' + key );
+    return Common.getIntWord( key );
+  },
+
 } );
