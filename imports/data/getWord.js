@@ -10,6 +10,12 @@ class VocabularyRepository {
     return Session.get( 'isdebug' ) === true ? true : false;
   }
 
+  debug( msg ) {
+    if ( this.isDebug ) {
+      console.log( msg );
+    }
+  }
+
   sleep( ms ) {
     return new Promise( resolve => setTimeout( resolve, ms ) );
   }
@@ -31,14 +37,20 @@ class VocabularyRepository {
     return this.getSimpleWord( randomWord );
   }
 
-  getWholeWordList() {
+  getWholeWordList( level ) {
     var allWords = [];
     for ( let w of all_vocabulary ) {
+      // skip this word if not in level
+      if ( level && ( w.level != level ) ) {
+        this.debug( 'skipping word having wrong level: ' + w.danish );
+        continue;
+      }
       allWords.push( this.getSimpleWord( w ) );
     }
     return allWords;
   }
 
+  /* Singleton to access selected words for this round */
   getAll() {
     var words = Session.get( 'currentWordList' );
     if ( typeof( words ) === 'undefined' ) {
@@ -50,9 +62,13 @@ class VocabularyRepository {
     return words;
   }
 
-  getSomeWords( number ) {
+  getSomeWords( number, level ) {
     var someWords = [];
-    var all = this.getWholeWordList();
+    var all = this.getWholeWordList( level );
+    if ( number > all.length ) {
+      console.log( 'not enough vocabs left in repo, therefore showing less' );
+      number = all.length;
+    }
     var randoms = this.getRandomValues( number, all.length );
     for ( i = 0; i < number; i++ ) {
       if ( this.isDebug() ) {
@@ -62,7 +78,6 @@ class VocabularyRepository {
       } else {
         someWords.push( all[ randoms[ i ] ] );
       }
-
     }
     return someWords;
   }

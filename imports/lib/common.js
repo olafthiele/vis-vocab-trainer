@@ -11,12 +11,12 @@ class CommonFunctions {
     } else {
       Session.set( 'language', 'en' );
     }
-    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ), Session.get( 'level' ) ) );
   }
 
   setWordNumber( nr ) {
     Session.set( 'numberOfVocabs', nr );
-    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+    Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ), Session.get( 'level' ) ) );
   }
 
   getIntWord( key ) {

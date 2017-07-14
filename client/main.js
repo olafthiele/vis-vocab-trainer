@@ -19,7 +19,8 @@ if ( Meteor.isClient ) {
   Session.set( 'language', 'de' ); // <---
   Session.set( 'isdebug', true );
   Session.set( 'numberOfVocabs', 20 );
-  Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ) ) );
+  Session.set( 'level', 2 );
+  Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ), Session.get( 'level' ) ) );
   // console.log( 'word list: ' + Session.get( 'currentWordList' ).toSource() );
   // console.log( 'Language set to: ' + Session.get( 'language' ) );
   // set colors so they can be used from session

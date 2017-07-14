@@ -2,815 +2,1116 @@ all_vocabulary = [ {
     "danish": "aftale",
     "german": "Vertrag, Termin",
     "english": "agreement, appointment",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "uddannelse",
     "german": "Ausbildung",
     "english": "course, training",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "enkelt",
     "german": "einzeln",
     "english": "individual, single",
-    "adjective": "enkelt, enkelt, enkelte"
+    "adjective": "enkelt, enkelt, enkelte",
+    "level": 1
   },
   {
     "danish": "deltage",
     "german": "teilnehmen, mitmachen",
     "english": "participate, attend",
-    "verb": "deltager, deltog, deltaget"
+    "verb": "deltager, deltog, deltaget",
+    "level": 1
   },
   {
     "danish": "krop",
     "german": "Körper",
     "english": "body",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "lun",
     "german": "lauwarm, humorvoll",
     "english": "warm, cosy",
-    "adjective": "lun, lunt, lune"
+    "adjective": "lun, lunt, lune",
+    "level": 1
   },
   {
     "danish": "runde af",
     "german": "abrunden",
     "english": "round off",
-    "verb": "runder, rundede, rundet"
+    "verb": "runder, rundede, rundet",
+    "level": 1
   },
   {
     "danish": "for nylig",
     "german": "kürzlich, neulich",
     "english": "recently",
-    "other": "adv"
+    "other": "adv",
+    "level": 1
   },
   {
     "danish": "moden",
     "german": "reif",
     "english": "ripe, mature",
-    "adjective": "moden, modent, modne"
+    "adjective": "moden, modent, modne",
+    "level": 1
   },
   {
     "danish": "skuffende",
     "german": "enttäuschend",
     "english": "disappointing",
-    "adjective": "skuffende, skuffende, skuffende"
+    "adjective": "skuffende, skuffende, skuffende",
+    "level": 1
   },
   {
     "danish": "opskrift",
     "german": "Rezept",
     "english": "recipe",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "tjene",
     "german": "verdienen",
     "english": "earn",
-    "verb": "tjener, tjente, tjent"
+    "verb": "tjener, tjente, tjent",
+    "level": 1
   },
   {
     "danish": "vænne sig til noget",
     "german": "etwas gewöhnt sein",
     "english": "be accustomed to",
-    "other": "???"
+    "other": "???",
+    "level": 1
   },
   {
     "danish": "oplevelse",
     "german": "Erlebnis",
     "english": "experience",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "ihvertfald",
     "german": "auf jeden Fall",
     "english": "in any case",
-    "other": "adv"
+    "other": "adv",
+    "level": 1
   },
   {
     "danish": "gennem",
     "german": "durch",
     "english": "through",
-    "other": "praep"
+    "other": "praep",
+    "level": 1
   },
   {
     "danish": "pose",
     "german": "Tasche",
     "english": "bag",
-    "noun": "n"
+    "noun": "n",
+    "level": 1
   },
   {
     "danish": "alligevel",
     "german": "trotzdem, dennoch, sowieso",
     "english": "anyway",
-    "other": "adv"
+    "other": "adv",
+    "level": 1
   },
   {
     "danish": "lugte til ngt.",
     "german": "riechen",
     "english": "smell",
-    "verb": "lugter, lugtede, lugtet"
+    "verb": "lugter, lugtede, lugtet",
+    "level": 2
   },
   {
     "danish": "støj",
     "german": "Geräusch",
     "english": "noise",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "tabe",
     "german": "verlieren",
     "english": "drop",
-    "verb": "taber, tabte, tabt"
+    "verb": "taber, tabte, tabt",
+    "level": 2
   },
   {
     "danish": "ærlig talt",
     "german": "ehrlich!",
     "english": "honestly",
-    "other": "???"
-  },
-  {
-    "danish": "forsinket",
-    "german": "spät",
-    "english": "late",
-    "other": "adv"
+    "other": "???",
+    "level": 2
   },
   {
     "danish": "skylde",
     "german": "schulden",
     "english": "owe",
-    "verb": "skylder, skyldte, skyldt"
+    "verb": "skylder, skyldte, skyldt",
+    "level": 2
   },
   {
     "danish": "sandhed",
     "german": "Wahrheit",
     "english": "truth",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "snige sig",
     "german": "schleichen",
     "english": "sneak",
-    "verb": "sniger, sneg, sneget"
+    "verb": "sniger, sneg, sneget",
+    "level": 2
   },
   {
     "danish": "rar",
     "german": "nett",
     "english": "nice",
-    "adjective": "rar, rart, rare"
+    "adjective": "rar, rart, rare",
+    "level": 2
   },
   {
     "danish": "løgn",
     "german": "Lüge",
     "english": "lie",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "kalde",
     "german": "anrufen, nennen",
     "english": "call",
-    "verb": "kalder, kaldte, kaldt"
+    "verb": "kalder, kaldte, kaldt",
+    "level": 2
   },
   {
     "danish": "sær",
     "german": "ungewöhnlich",
     "english": "odd, peculiar",
-    "adjective": "sær, sært, sære"
+    "adjective": "sær, sært, sære",
+    "level": 2
   },
   {
     "danish": "vane",
     "german": "(An-) Gewohnheit",
     "english": "habit, practice",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "danne",
     "german": "bilden, gestalten",
     "english": "form, shape",
-    "verb": "danner, dannede, dannet"
+    "verb": "danner, dannede, dannet",
+    "level": 2
   },
   {
     "danish": "regning",
     "german": "Rechnung",
     "english": "bill",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "tilværelse",
     "german": "Leben, Existenz",
     "english": "life, existence",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "tiltrængt",
     "german": "notwendig",
     "english": "necessary",
-    "adjective": "tiltrængt, tiltrængt, tiltrængte"
+    "adjective": "tiltrængt, tiltrængt, tiltrængte",
+    "level": 2
   },
   {
     "danish": "dog",
     "german": "doch, dennoch, trotzdem",
     "english": "however, yet, still",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "imens",
     "german": "während (kein Nebensatz)",
     "english": "meanwhile",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "nogensinde",
     "german": "jemals, überhaupt",
     "english": "ever, at any time",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "retning",
     "german": "Richtung",
     "english": "direction",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "sjælden",
     "german": "selten",
     "english": "rare",
-    "adjective": "sjælden, sjældent, sjældne"
+    "adjective": "sjælden, sjældent, sjældne",
+    "level": 2
   },
   {
     "danish": "slet",
     "german": "schlecht, minderwertig",
     "english": "bad, poor",
-    "adjective": "slet, slet, slette"
+    "adjective": "slet, slet, slette",
+    "level": 2
   },
   {
     "danish": "mens",
     "german": "während (auch Nebensatz)",
     "english": "meanwhile",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "forhold",
     "german": "Gegebenheit, Umstand",
     "english": "circumstance, condition",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "klare",
     "german": "meistern, fertig werden mit",
     "english": "handle, take care of",
-    "verb": "klarer, klarede, klaret"
+    "verb": "klarer, klarede, klaret",
+    "level": 2
   },
   {
     "danish": "snavset",
     "german": "schmutzig, unsauber",
     "english": "dirty, filthy",
-    "adjective": "snavset, snavset, snavsede"
+    "adjective": "snavset, snavset, snavsede",
+    "level": 2
   },
   {
     "danish": "tåle",
     "german": "ertragen, vertragen, dulden",
     "english": "put up with, tolerate",
-    "verb": "tåler, tålte, tålt"
+    "verb": "tåler, tålte, tålt",
+    "level": 2
   },
   {
     "danish": "tie (stille)",
     "german": "schweigen, still sein",
     "english": "be silent, fall silent",
-    "verb": "tier, tiede/tav, tiet"
+    "verb": "tier, tiede/tav, tiet",
+    "level": 2
   },
   {
     "danish": "forfærdelig",
     "german": "entsetzlich, furchtbar",
     "english": "horrible, terrible",
-    "adjective": "forfærdelig, forfærdeligt, forfærdelige"
+    "adjective": "forfærdelig, forfærdeligt, forfærdelige",
+    "level": 2
   },
   {
     "danish": "anderledes",
     "german": "anders",
     "english": "differently, otherwise",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "minde",
     "german": "erinnern",
     "english": "remember, recollect",
-    "verb": "minde, mindede, mindet"
+    "verb": "minde, mindede, mindet",
+    "level": 2
   },
   {
     "danish": "sind",
     "german": "Gemüt, Sinn",
     "english": "mind, temper",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "frastødende",
     "german": "abstoßend, widerlich",
     "english": "repulsive, disgusting",
-    "adjective": "frastødende"
+    "adjective": "frastødende",
+    "level": 2
   },
   {
     "danish": "vidunderlig",
     "german": "wunderbar, wundervoll",
     "english": "wonderful, marvelous",
-    "adjective": "vidunderlig, vidunderligt, vidunderlige"
+    "adjective": "vidunderlig, vidunderligt, vidunderlige",
+    "level": 2
   },
   {
     "danish": "iagttager",
     "german": "Beobachter",
     "english": "observer",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "afsløre",
     "german": "enthüllen, aufdecken",
     "english": "unveil, reveal",
-    "verb": "afslører, afslørede, afsløret"
+    "verb": "afslører, afslørede, afsløret",
+    "level": 2
   },
   {
     "danish": "vurdere",
     "german": "schätzen, bewerten",
     "english": "estimate, asses",
-    "verb": "vuderer, vurderede, vurderedet"
+    "verb": "vuderer, vurderede, vurderedet",
+    "level": 2
   },
   {
     "danish": "vel",
     "german": "wohl, wahr, ziemlich, reichlich",
     "english": "well, probably, I suppose, certainly",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "begivenhed",
     "german": "Ereignis, Begebenheit, Vorfall",
     "english": "event, occasion, occurence",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "genert",
     "german": "schüchtern, scheu, verlegen",
     "english": "shy, embarassed",
-    "adjective": "genert, genert, generte"
+    "adjective": "genert, genert, generte",
+    "level": 2
   },
   {
     "danish": "ligefrem",
     "german": "schlicht, einfach, geradeheraus",
     "english": "plain, simple, straightforward",
-    "adjective": "ligefrem, ligefremt, ligefremme"
+    "adjective": "ligefrem, ligefremt, ligefremme",
+    "level": 2
   },
   {
     "danish": "forvente",
     "german": "erwarten",
     "english": "expect, anticipate",
-    "verb": "forventer, forventede, forventet"
+    "verb": "forventer, forventede, forventet",
+    "level": 2
   },
   {
     "danish": "trin",
     "german": "Schritt, Stufe",
     "english": "step, stair",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "rask",
     "german": "gesund, rasch, wieder fit",
     "english": "in good health, fit",
-    "adjective": "rask, rask, raske"
+    "adjective": "rask, rask, raske",
+    "level": 2
   },
   {
     "danish": "sund",
     "german": "heilsam, generell gesund",
     "english": "healthy, sound",
-    "adjective": "sund, sundt, sunde"
+    "adjective": "sund, sundt, sunde",
+    "level": 2
   },
   {
     "danish": "nok",
     "german": "wohl, genug, noch, offenbar",
     "english": "probably, enough, arguably, very likely",
-    "adjective": "nok"
+    "adjective": "nok",
+    "level": 2
   },
   {
     "danish": "fortryde",
     "german": "bereuen, sich anders besinnen",
     "english": "be sorry for, regret",
-    "verb": "fortryder, fortrød, fortrudt"
+    "verb": "fortryder, fortrød, fortrudt",
+    "level": 2
   },
   {
     "danish": "imidlertid",
     "german": "aber, jedoch, inzwischen",
     "english": "in the meantime, still, however",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "ellers",
     "german": "ansonsten, anderfalls, weiter",
     "english": "or, if not, otherwise, generally",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "desuden",
     "german": "ausserdem, ueberdies, zudem",
     "english": "in addition to, also, moreover",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "omvendt",
     "german": "umgekehrt",
     "english": "upturned, upside down, reversed",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "dermed",
     "german": "damit, da mit",
     "english": "so saying, thus, with that",
     "other": "adv",
-    "synonym": "således"
+    "synonym": "således",
+    "level": 2
   },
   {
     "danish": "støtte",
     "german": "stehen, stützen, unterstützen",
     "english": "support, back up, subsidize",
-    "verb": "støtter, støttede, støttet"
+    "verb": "støtter, støttede, støttet",
+    "level": 2
   },
   {
     "danish": "yde",
     "german": "leisten, gewähren, entrichten",
     "english": "render, afford, give, pay",
-    "verb": "yder, yedede, yedet"
+    "verb": "yder, yedede, yedet",
+    "level": 2
   },
   {
     "danish": "heller ikke",
     "german": "auch nicht",
     "english": "neither, nor",
-    "other": "konj"
+    "other": "konj",
+    "level": 2
   },
   {
     "danish": "undvære",
     "german": "entbehren, verzichten",
     "english": "do without, be without, dispense",
-    "verb": "undværer, undværende, undværet"
+    "verb": "undværer, undværende, undværet",
+    "level": 2
   },
   {
     "danish": "ulempe",
     "german": "Nachteil, Unannehmlichkeit",
     "english": "drawback, disadvantage, inconvenience",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "overholde",
     "german": "befolgen, beachten, einhalten",
     "english": "keep, observe, respect",
-    "verb": "overholder, overholdt, overholdt"
+    "verb": "overholder, overholdt, overholdt",
+    "level": 2
   },
   {
     "danish": "almen",
     "german": "allgemein, öffentlich",
     "english": "common, public, general",
-    "adjective": "almen, alment, almene"
+    "adjective": "almen, alment, almene",
+    "level": 2
   },
   {
     "danish": "selvtillid",
     "german": "Selbstvertrauen",
     "english": "self-confidence",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "flov",
     "german": "verlegen, peinlich, unangenehm",
     "english": "embarrassed, sheepish, awkward",
-    "adjective": "flov, flovt, flove"
+    "adjective": "flov, flovt, flove",
+    "level": 2
   },
   {
     "danish": "doven",
     "german": "faul, träge, schal",
     "english": "lazy, idle, flate, stale",
-    "adjective": "doven, dovent, dovne"
+    "adjective": "doven, dovent, dovne",
+    "level": 2
   },
   {
     "danish": "dusse",
     "german": "duzen",
     "english": "saying informal you",
-    "verb": "dusser, dussede, dusset"
+    "verb": "dusser, dussede, dusset",
+    "level": 2
   },
   {
     "danish": "værre",
     "german": "schlimmer, schlechter",
     "english": "worse, harder",
-    "adjective": "værre"
+    "adjective": "værre",
+    "level": 2
   },
   {
     "danish": "krav",
     "german": "Forderung, Anspruch, Anforderung",
     "english": "demand, claim, requirement",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "svag",
     "german": "schwach, leise, blass",
     "english": "weak, feeble, poor",
-    "adjective": "svag, svagt, svage"
+    "adjective": "svag, svagt, svage",
+    "level": 2
   },
   {
     "danish": "tilfælde",
     "german": "Fall, Zufall, Anfall",
     "english": "case, instance, occurence, coincidence",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "folkestyret",
     "german": "demokratisch, vom Volke regiert",
     "english": "governed by the people, democratic",
-    "adjective": "folkestyret, folkestyret, folkestyrede"
+    "adjective": "folkestyret, folkestyret, folkestyrede",
+    "level": 2
   },
   {
     "danish": "ringe",
     "german": "gering, minderwertig, schlecht",
     "english": "smaller, less, inferior, poorer",
-    "adjective": "ringe"
+    "adjective": "ringe",
+    "level": 2
   },
   {
     "danish": "tyde",
     "german": "deuten, entschlüsseln, entziffern",
     "english": "interpret, decipher, read",
-    "verb": "tyder, tydede, tydet"
+    "verb": "tyder, tydede, tydet",
+    "level": 2
   },
   {
     "danish": "lignende",
     "german": "ähnlich",
     "english": "similiar, quasi, like, comparable",
-    "adjective": "lignende"
+    "adjective": "lignende",
+    "level": 2
   },
   {
     "danish": "foreløbig",
     "german": "vorläufig, einstweilig, provisorisch",
     "english": "temporary, provisional, interim",
-    "adjective": "foreløbig, foreløbigt, foreløbige"
+    "adjective": "foreløbig, foreløbigt, foreløbige",
+    "level": 2
   },
   {
     "danish": "idet",
     "german": "indem, da, weil",
     "english": "as, because, when, in as much as",
-    "other": "konj"
+    "other": "konj",
+    "level": 2
   },
   {
     "danish": "eftersom",
     "german": "weil, da",
     "english": "as, inasmuch as, seeing that",
-    "other": "konj"
+    "other": "konj",
+    "level": 2
   },
   {
     "danish": "forsinket",
     "german": "verspätet, verzögert",
     "english": "delayed, late, overdue",
-    "adjective": "forsinket, forsinket, forsinkede"
+    "adjective": "forsinket, forsinket, forsinkede",
+    "level": 2
   },
   {
     "danish": "love",
     "german": "versprechen, geloben, preisen",
     "english": "promise, praise, pledge",
-    "verb": "lover, lovede, lovet"
+    "verb": "lover, lovede, lovet",
+    "level": 2
   },
   {
     "danish": "tværtimod",
     "german": "im Gegenteil, vielmehr",
     "english": "on the contrary, far from it",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "blandt andet",
     "german": "unter anderem",
     "english": "among other things, including",
-    "other": "???"
+    "other": "???",
+    "level": 2
   },
   {
     "danish": "til gengæld",
     "german": "wiederum, andererseits",
     "english": "in return, on the other hand",
-    "other": "???"
+    "other": "???",
+    "level": 2
   },
   {
     "danish": "at tage fat",
     "german": "angehen, an die Arbeit gehen",
     "english": "get down to it, turn to",
-    "other": "???"
+    "other": "???",
+    "level": 2
   },
   {
     "danish": "stole på",
     "german": "sich auf etw. verlassen/vertrauen",
     "english": "rely on, depend on, count on",
-    "verb": "stoler, stolede, stolet på"
+    "verb": "stoler, stolede, stolet på",
+    "level": 2
   },
   {
     "danish": "falde",
     "german": "fallen, sinken, stürzen",
     "english": "fall, drop, pitch",
-    "verb": "falder, faldt, faldet"
+    "verb": "falder, faldt, faldet",
+    "level": 2
   },
   {
     "danish": "kræve",
     "german": "fordern, verlangen, beanspruchen",
     "english": "demand, call for, insist on",
-    "verb": "kræver, krævede, krævet"
+    "verb": "kræver, krævede, krævet",
+    "level": 2
   },
   {
     "danish": "helvede",
     "german": "Hölle",
     "english": "hell",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "hensyn",
     "german": "Rücksicht",
     "english": "consideration",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "bøde",
     "german": "Geldstrafe, Buße",
     "english": "fine, penalty",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "afgør",
     "german": "entscheiden, beschließen, erledigen",
     "english": "decide, determine, rule on",
-    "verb": "afgør, afgjorde, afgjort"
+    "verb": "afgør, afgjorde, afgjort",
+    "level": 2
   },
   {
     "danish": "forlange",
     "german": "verlangen, fordern, berechnen",
     "english": "ask for, order, demand",
-    "verb": "forlanger, forlangte, forlangt"
+    "verb": "forlanger, forlangte, forlangt",
+    "level": 2
   },
   {
     "danish": "eller ej",
     "german": "oder nicht",
     "english": "or not",
-    "other": "???"
+    "other": "???",
+    "level": 2
   },
   {
     "danish": "vis",
     "german": "gewiss, sicher",
     "english": "sure, certain",
-    "adjective": "vis, vist, visse"
+    "adjective": "vis, vist, visse",
+    "level": 2
   },
   {
     "danish": "bortvise",
     "german": "verweisen, abweisen",
     "english": "turn away, refuse admittance",
-    "verb": "bortviser, bortviste, bortvist"
+    "verb": "bortviser, bortviste, bortvist",
+    "level": 2
   },
   {
     "danish": "anmelder",
     "german": "Rezensent, Kritiker",
     "english": "reviewer, informer, critic",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "påske",
     "german": "Ostern",
     "english": "Easter",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "tilmed",
     "german": "außerdem, obendrein, noch dazu",
     "english": "moreover, into the bargain, even",
     "other": "adv",
-    "synonym": "desuden"
+    "synonym": "desuden",
+    "level": 2
   },
   {
     "danish": "formodentlig",
     "german": "vermutlich, mutmaßlich, voraussichtlich",
     "english": "probably, i suppose, presumably",
     "other": "adv",
-    "synonym": "måske"
+    "synonym": "måske",
+    "level": 2
   },
   {
     "danish": "ovenikøbet",
     "german": "obendrein, noch dazu, überdies",
     "english": "in addition, into the bargain, at that",
     "other": "adv",
-    "synonym": "ydermere"
+    "synonym": "ydermere",
+    "level": 2
   },
   {
     "danish": "derpå",
     "german": "darauf, danach",
     "english": "after that, then, next",
     "other": "adv",
-    "synonym": "bagefter"
+    "synonym": "bagefter",
+    "level": 2
   },
   {
     "danish": "øge",
     "german": "vergrößern, vermehren, aufstocken",
     "english": "increase, add to, step up",
-    "verb": "øger, øgede, øget"
+    "verb": "øger, øgede, øget",
+    "level": 2
   },
   {
     "danish": "opførsel",
     "german": "Benehmen, Führung, Verhalten",
     "english": "behaviour, conduct, manners",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "drive",
     "german": "treiben, antreiben, ausüben",
     "english": "drive, move, carry on",
-    "verb": "driver, drev, drevet"
+    "verb": "driver, drev, drevet",
+    "level": 2
   },
   {
     "danish": "helst",
     "german": "am liebsten, lieber",
     "english": "preferably, rather, for choice",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "forløb",
     "german": "Verlauf, Hergang, Ablauf",
     "english": "course, progress, sequence",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "rimelig",
     "german": "angemessen, vernünftig, passend, berechtigt",
     "english": "reasonable, fair, satisfactory",
-    "adjective": "rimelig, rimeligt, rimelige"
+    "adjective": "rimelig, rimeligt, rimelige",
+    "level": 2
   },
   {
     "danish": "ligeledes",
     "german": "ebenfalls, gleichfalls",
     "english": "too, as well, also, likewise",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "således",
     "german": "so, in dieser Weise, somit",
     "english": "like this, in this way, thus, hence",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "vedtagelse",
     "german": "Beschluss, Annahme",
     "english": "approval, agreement, decision",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "udregning",
     "german": "Ausrechnung, Errechnung",
     "english": "calculation, computation",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "redskab",
     "german": "Gerät, Werkzeug",
     "english": "tool, utensil, implement",
-    "noun": "t"
+    "noun": "t",
+    "level": 2
   },
   {
     "danish": "tilrettelægge",
     "german": "zurechtlegen, organisieren",
     "english": "arrange, organize",
-    "verb": "tilrettelægger, tilrettelæggde, tilrettelagt"
+    "verb": "tilrettelægger, tilrettelæggde, tilrettelagt",
+    "level": 2
   },
   {
     "danish": "opbakning",
     "german": "Rückhalt, Unterstützung",
     "english": "backing, support",
-    "noun": "n"
+    "noun": "n",
+    "level": 2
   },
   {
     "danish": "udelukke",
     "german": "ausschließen, ausschalten",
     "english": "shut out, exclude",
-    "verb": "udelukker, udelukkede, udelukket"
+    "verb": "udelukker, udelukkede, udelukket",
+    "level": 2
   },
   {
     "danish": "afvise",
     "german": "abweisen, ablehnen, zurückweisen",
     "english": "refuse admission, turn away",
-    "verb": "afviser, afviste, afvist"
+    "verb": "afviser, afviste, afvist",
+    "level": 2
   },
   {
     "danish": "næppe",
     "german": "kaum, schwerlich",
     "english": "hardly, scarcly",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
   },
   {
     "danish": "nyde",
     "german": "genießen, sich erfreuen",
     "english": "enjoy, take pleasure in",
-    "verb": "nyder, nød, nydt"
+    "verb": "nyder, nød, nydt",
+    "level": 2
   },
   {
     "danish": "vedligeholde",
     "german": "unterhalten, instandhalten",
     "english": "keep up, maintain",
-    "verb": "vedligeholder, vedligeholdt, vedligeholdt"
+    "verb": "vedligeholder, vedligeholdt, vedligeholdt",
+    "level": 2
   },
   {
     "danish": "vis",
     "german": "wise",
     "english": "weise",
-    "adjective": "vis, vist, vise"
+    "adjective": "vis, vist, vise",
+    "level": 2
+  },
+  {
+    "danish": "heldigvis",
+    "german": "luckily, fortunately",
+    "english": "glücklicherweise",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "altså",
+    "german": "so, therefore, consequently",
+    "english": "also, somit, demnach",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "alvorlig",
+    "german": "ernst(-haft), schwer, erheblich",
+    "english": "serious, grave, earnest",
+    "adjective": "alvorlig, alvorligt, alvorlige",
+    "level": 2
+  },
+  {
+    "danish": "have mod på noget",
+    "german": "Lust zu etwas haben",
+    "english": "feel like doing sth",
+    "verb": "har, havde, haft",
+    "level": 2
+  },
+  {
+    "danish": "efterhånden",
+    "german": "allmählich, nach und nach",
+    "english": "gradually, eventually, by degrees",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "derimod",
+    "german": "dagegen, hingegen",
+    "english": "against it, on the other hand",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "i stedet",
+    "german": "stattdessen",
+    "english": "instead",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "sandsynlighed",
+    "german": "Wahrscheinlichkeit",
+    "english": "probabilty",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "jævnligt",
+    "german": "öfters, oft",
+    "english": "frequent, regular",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "oprindelig",
+    "german": "ursprünglich, urwüchsig",
+    "english": "original, indigenous, earliest",
+    "adjective": "oprindelig, -t, -e",
+    "level": 2
+  },
+  {
+    "danish": "urimelig",
+    "german": "unangemessen, unberechtigt",
+    "english": "unreasonable, absurd, preposterous",
+    "adjective": "urimelig, -t, -e",
+    "level": 2
+  },
+  {
+    "danish": "tapperhed",
+    "german": "Tapferkeit",
+    "english": "bravery, courage",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "opspore",
+    "german": "aufspüren, ausfindig machen",
+    "english": "track down, discover, detect",
+    "verb": "opsporer, opsporede, opsporet",
+    "level": 2
+  },
+  {
+    "danish": "slunken",
+    "german": "leer, schmächtig, schlaff",
+    "english": "lean, lank, shrunken",
+    "adjective": "slunken, slunkent, slukne",
+    "level": 2
+  },
+  {
+    "danish": "gæt",
+    "german": "Vermutung, Schätzung",
+    "english": "guess",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "fatte",
+    "german": "fassen, begreifen, verstehen",
+    "english": "grasp, understand, comprehend",
+    "verb": "fatter, fattede, fattet",
+    "level": 2
+  },
+  {
+    "danish": "glimre",
+    "german": "funkeln, glänzen",
+    "english": "glitter, shine",
+    "verb": "glimrer, glimrede, glimret",
+    "level": 2
+  },
+  {
+    "danish": "dusør",
+    "german": "Belohnung, Finderlohn",
+    "english": "reward",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "fremskridt",
+    "german": "Fortschritt",
+    "english": "progress, step forward",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "udbrud",
+    "german": "Ausbruch, Ausruf",
+    "english": "outbreak, outburst",
+    "level": 2
+  },
+  {
+    "danish": "skjule",
+    "german": "verbergen, verstecken, verhehlen",
+    "english": "hide, conceal, disguise",
+    "verb": "skjuler, skjulte, skjult",
+    "level": 2
+  },
+  {
+    "danish": "klynge",
+    "german": "Gruppe, Menschentraube",
+    "english": "cluster, group, knot",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "ganske",
+    "german": "ganz, ziehmlich",
+    "english": "quite, perfectly, entirely",
+    "verb": "ganske",
+    "level": 2
+  },
+  {
+    "danish": "tilsvarende",
+    "german": "entsprechend, ähnlich",
+    "english": "corresponding, equivalent, analogous",
+    "verb": "tilsvarende",
+    "level": 2
+  },
+  {
+    "danish": "hensigtsmæssigt",
+    "german": "zweckmäßig, sachdienlich",
+    "english": "suitable, expediently, appropriatly",
+    "level": 2
   }
 ];
