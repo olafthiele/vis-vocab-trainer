@@ -21,7 +21,12 @@ class CommonFunctions {
 
   getIntWord( key ) {
     var lang = Session.get( 'language' );
-    return i18ns[ key ][ lang ];
+    var local = i18ns[ key ][ lang ];
+    if ( local === '' || local === undefined ) {
+      return 'X-X-X';
+    } else {
+      return i18ns[ key ][ lang ];
+    }
   }
 
   setColors( nr ) {

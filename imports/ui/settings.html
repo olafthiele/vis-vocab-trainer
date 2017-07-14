@@ -7,33 +7,34 @@
             <a href='/'>{{getIntWord 'home'}}</a>
           </div>
             <div class="tile tileLarge changeColors" style="background-color: {{getColor 'type2'}} ;">
-              Change colors
+              {{getIntWord 'changeColors'}}
             </div>
-            <div class="tile xxx" style="background-color: {{getColor 'type1'}} ;">
-              Level
+            <div class="tile changeLevel" style="background-color: {{getColor 'type1'}} ;">
+              {{getIntWord 'level'}}
             </div>
       </div>
       <div class="linha">
-            <div class="tile tileLarge" style="background-color: grey ;">
-              {{content}}
-            </div>
             <div class="tile change30" style="background-color: {{getColor 'type4'}} ;">
                 50 {{getIntWord 'words'}}
             </div>
             <div class="tile change20" style="background-color: {{getColor 'type4'}} ;">
                  20 {{getIntWord 'words'}}
             </div>
+            <div class="tile tileLarge" style="background-color: {{contentStyle}} ;">
+              {{content}}
+            </div>
         </div>
         <div class="linha">
-          <div class="tile changeLang" style="background-color: {{getColor 'type4'}} ;">
+          <div class="tile tileLarge changeLang" style="background-color: {{getColor 'type3'}} ;">
               {{getIntWord 'changeLang'}}
+          </div>
+          <div class="tile " style="background-color: {{getColor 'type4'}} ;">
+
           </div>
           <div class="tile " style="background-color: {{getColor 'type2'}} ;">
 
           </div>
-          <div class="tile tileLarge" style="background-color: {{getColor 'type3'}} ;">
 
-          </div>
       </div>
     </div>
   </main>
