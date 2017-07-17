@@ -41,3 +41,10 @@ FlowRouter.route( '/settings', {
     BlazeLayout.render( 'SettingsLayout' );
   }
 } );
+
+FlowRouter.route( '/help', {
+  name: 'HelpPage',
+  action: function( params, queryParams ) {
+    BlazeLayout.render( 'HelpLayout' );
+  }
+} );

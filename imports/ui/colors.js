@@ -10,6 +10,14 @@ Template.ColorsLayout.helpers( {
   },
 } );
 
+Template.ColorsLayout.events( {
+
+  'click .help' () {
+    FlowRouter.go( '/help' );
+  },
+
+} );
+
 Template.RenderColorLayout.helpers( {
   pageCode() {
     return encodeURIComponent( this.original );

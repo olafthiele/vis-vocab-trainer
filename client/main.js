@@ -9,6 +9,7 @@ import '../imports/ui/colors.js';
 import '../imports/ui/test.js';
 import '../imports/ui/settings.js';
 import '../imports/ui/colorword.js';
+import '../imports/ui/help.js';
 
 import './main.html';
 
