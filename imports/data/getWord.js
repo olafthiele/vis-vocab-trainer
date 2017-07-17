@@ -10,8 +10,9 @@ class VocabularyRepository {
     return Session.get( 'isdebug' ) === true ? true : false;
   }
 
+  /* Log debug messages*/
   debug( msg ) {
-    if ( this.isDebug ) {
+    if ( this.isDebug() ) {
       console.log( msg );
     }
   }
@@ -66,13 +67,13 @@ class VocabularyRepository {
     var someWords = [];
     var all = this.getWholeWordList( level );
     if ( number > all.length ) {
-      console.log( 'not enough vocabs left in repo, therefore showing less' );
+      this.debug( 'not enough vocabs left in repo, therefore showing less' );
       number = all.length;
     }
     var randoms = this.getRandomValues( number, all.length );
     for ( i = 0; i < number; i++ ) {
       if ( this.isDebug() ) {
-        console.log( 'word nr would be random if real ' + i + ' - ' + randoms[ i ] );
+        this.debug( 'word nr would be random if real ' + i + ' - ' + randoms[ i ] );
         // if debug push always the same words, so single pages can be developed
         someWords.push( all[ i ] );
       } else {

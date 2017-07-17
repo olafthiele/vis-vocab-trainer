@@ -16,8 +16,12 @@ import './main.html';
 //  -Tinder paging
 
 if ( Meteor.isClient ) {
-  Session.set( 'language', 'de' ); // <---
-  Session.set( 'isdebug', true );
+  Session.set( 'language', 'de' );
+  if ( Meteor.settings.public.debug ) {
+    Session.set( 'isdebug', true );
+  } else {
+    Session.set( 'isdebug', false );
+  }
   Session.set( 'numberOfVocabs', 20 );
   Session.set( 'level', 2 );
   Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ), Session.get( 'level' ) ) );
@@ -25,6 +29,7 @@ if ( Meteor.isClient ) {
   // console.log( 'Language set to: ' + Session.get( 'language' ) );
   // set colors so they can be used from session
   Common.setColors( 0 );
+  // console.log( 'test' + Meteor.settings.public.debug );
 }
 
 Template.HomeLayout.helpers( {
