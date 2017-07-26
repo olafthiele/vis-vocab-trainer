@@ -19,14 +19,14 @@ FlowRouter.route( '/word/', {
   }
 } );
 
-FlowRouter.route( '/single/', {
-  name: 'SinglePage',
-  action: function( params, queryParams ) {
-    BlazeLayout.render( 'SingleLayout' );
-    // console.log( "Params:", params );
-    // console.log( "Query Params:", queryParams );
-  }
-} );
+// FlowRouter.route( '/single/', {
+//   name: 'SinglePage',
+//   action: function( params, queryParams ) {
+//     BlazeLayout.render( 'SingleLayout' );
+//     // console.log( "Params:", params );
+//     // console.log( "Query Params:", queryParams );
+//   }
+// } );
 
 FlowRouter.route( '/test', {
   name: 'TestPage',
