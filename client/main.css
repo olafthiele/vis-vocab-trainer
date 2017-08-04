@@ -158,3 +158,18 @@ New design
 .tileLarge {
   width: 12em;
 }
+
+
+/* help page */
+
+.page {
+  width: 100%;
+  height: 100vh;
+  padding: 1%;
+}
+
+.page p {
+  font-size: 120%;
+  padding-left: 2%;
+  padding-right: 2%;
+}

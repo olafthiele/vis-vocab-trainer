@@ -1,8 +1,11 @@
 <template name="HelpLayout">
   <main>
- <!-- Thanks http://mrbool.com/creating-a-metro-style-menu-in-html-and-css -->
-    <div class="page" style="background: {{getColor 'type5'}} ;">
-      test
+    <div class="page" style="background: {{getColor 'type1'}} ;">
+      <p> <a href='/'>{{getIntWord 'home'}}</a></p>
+      <p> {{getIntWord 'help_intro'}}</p>
+      <p> {{getIntWord 'help_usage'}}</p>
+      <p> {{getIntWord 'help_settings'}}</p>
+      <p> {{getIntWord 'help_imprint'}}</p>
     </div>
   </main>
 </template>

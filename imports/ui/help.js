@@ -14,4 +14,8 @@ Template.HelpLayout.helpers( {
     return Session.get( 'colors' )[ color ];
   },
 
+  getIntWord: function( key ) {
+    return Common.getIntWord( key );
+  },
+
 } );

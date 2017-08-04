@@ -4,6 +4,26 @@ i18ns = {
     'en': '',
     'de': ''
   },
+  'help_intro': {
+    'dk': '',
+    'en': '',
+    'de': 'Willkommen beim Vokabeltrainer. Hier gibt einige Informationen zur Benutzung, zu Einstellungen und Erreichbarkeit bei Fragen.'
+  },
+  'help_usage': {
+    'dk': '',
+    'en': '',
+    'de': 'Jeder farbige Strich symbolisiert eine Vokabel. Einfach auf einen beliebigen Strich klicken und anfangen. Swipen oder alternativ ein Klick an den Seiten führt zu benachbarten Vokabeln. Ein Klick auf die Vokabel zeigt die Übersetzung. Bei jedem Aufruf werden 20 Vokabeln zufällig ausgewählt und angezeigt.'
+  },
+  'help_settings': {
+    'dk': '',
+    'en': '',
+    'de': 'Wenn eine einzelne Vokabel angezeigt wird, können durch klickt auf das Menüsymbol unten rechts, die Einstellungen aufgerufen werden. Hier kann das Sprachniveau oder auch eine andere Farbe ausgewählt werden.'
+  },
+  'help_imprint': {
+    'dk': '',
+    'en': '',
+    'de': 'Fragen oder Anmerkungen: Bitte Mail an vocabtrainer (hier kommt at hin) olafthiele.com'
+  },
   'level': {
     'dk': 'Niveau',
     'en': 'Level',
