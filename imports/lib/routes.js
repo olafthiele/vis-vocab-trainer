@@ -19,15 +19,6 @@ FlowRouter.route( '/word/', {
   }
 } );
 
-// FlowRouter.route( '/single/', {
-//   name: 'SinglePage',
-//   action: function( params, queryParams ) {
-//     BlazeLayout.render( 'SingleLayout' );
-//     // console.log( "Params:", params );
-//     // console.log( "Query Params:", queryParams );
-//   }
-// } );
-
 FlowRouter.route( '/test', {
   name: 'TestPage',
   action: function( params, queryParams ) {
@@ -48,3 +39,19 @@ FlowRouter.route( '/help', {
     BlazeLayout.render( 'HelpLayout' );
   }
 } );
+
+FlowRouter.route( '/mgmt', {
+  name: 'ManagementPage',
+  action: function( params, queryParams ) {
+    BlazeLayout.render( 'ManagementLayout' );
+  }
+} );
+
+// FlowRouter.route( '/single/', {
+//   name: 'SinglePage',
+//   action: function( params, queryParams ) {
+//     BlazeLayout.render( 'SingleLayout' );
+//     // console.log( "Params:", params );
+//     // console.log( "Query Params:", queryParams );
+//   }
+// } );

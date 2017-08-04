@@ -1,0 +1,22 @@
+<template name="ManagementLayout">
+  <main>
+    <div>
+      Options:
+      <br /><a href='/'>Show main screen</a>
+      <br />
+      <form style="font-size: 400%;">
+        <input type="text" name="searchWord">
+        <input type="submit" value="Open words">
+      </form>
+      <br />
+      <iframe src="" width="45%" height="800" name="english">
+      </iframe>
+      <iframe src="" width="45%" height="800" name="german">
+      </iframe>
+      <br /><br />
+      <div>
+        {{content}}
+      </div>
+    </div>
+  </main>
+</template>

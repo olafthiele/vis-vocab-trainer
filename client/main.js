@@ -7,13 +7,14 @@ import { Common } from '../imports/lib/common.js';
 import '../imports/lib/routes.js';
 
 // main user components
-import '../imports/ui/word.js';
+// import '../imports/ui/word.js';
 import '../imports/ui/colors.js';
 import '../imports/ui/settings.js';
 import '../imports/ui/colorword.js';
 import '../imports/ui/help.js';
 
 // management components - non-production
+import '../imports/operations/management.js';
 import '../imports/operations/test.js';
 
 import './main.html';
