@@ -43,6 +43,27 @@ class CommonFunctions {
     }
   }
 
+  shouldWeShowTranslationFirst() {
+    if ( Session.get( 'mustViewTranslation' ) === false ) {
+      // users don't have to view translations, therefore return vars to normal and return false
+      Session.set( 'showOrig', true );
+      Session.set( 'transIsRead', false );
+      return false;
+    }
+    // else check in which state we are right now
+    if ( Session.get( 'transIsRead' ) === false ) {
+      // stay on page and show translation
+      Session.set( 'showOrig', false );
+      Session.set( 'transIsRead', true );
+      return true;
+    } else {
+      // change is OK
+      Session.set( 'showOrig', true );
+      Session.set( 'transIsRead', false );
+      return false;
+    }
+  }
+
 }
 
 export const Common = new CommonFunctions();

@@ -1,6 +1,7 @@
 import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 import { Repo } from '../data/getWord.js';
+import { Common } from '../lib/common.js';
 
 import './colorword.html';
 
@@ -22,31 +23,19 @@ Template.ColorWordLayout.onRendered( function() {
 Template.ColorWordLayout.events( {
   'click .prev' () {
     var search = decodeURIComponent( Session.get( 'prev' ) );
-    // todo same, replace with function
-    if ( Session.get( 'transIsRead' ) === false ) {
-      // stay on page and show translation
-      Session.set( 'showOrig', false );
-      Session.set( 'transIsRead', true );
+    if ( Common.shouldWeShowTranslationFirst() ) {
       return;
     }
     Session.set( 'gt', Repo.getSingleWord( search ) );
-    Session.set( 'showOrig', true );
-    Session.set( 'transIsRead', false );
     window.scrollTo( 0, 0 );
   },
 
   'click .next' () {
     var search = decodeURIComponent( Session.get( 'next' ) );
-    // todo same, replace with function
-    if ( Session.get( 'transIsRead' ) === false ) {
-      // stay on page and show translation
-      Session.set( 'showOrig', false );
-      Session.set( 'transIsRead', true );
+    if ( Common.shouldWeShowTranslationFirst() ) {
       return;
     }
     Session.set( 'gt', Repo.getSingleWord( search ) );
-    Session.set( 'showOrig', true );
-    Session.set( 'transIsRead', false );
     window.scrollTo( 0, 0 );
   },
 

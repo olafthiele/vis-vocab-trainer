@@ -32,6 +32,10 @@ if ( Meteor.isClient ) {
   Session.set( 'numberOfVocabs', 20 );
   Session.set( 'level', 2 );
   Session.set( 'currentWordList', Repo.getSomeWords( Session.get( 'numberOfVocabs' ), Session.get( 'level' ) ) );
+
+  // Set whether users have to view translation before moving on
+  Session.set( 'mustViewTranslation', false );
+
   // console.log( 'word list: ' + Session.get( 'currentWordList' ).toSource() );
   // console.log( 'Language set to: ' + Session.get( 'language' ) );
   // set colors so they can be used from session
