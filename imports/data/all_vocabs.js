@@ -1098,20 +1098,321 @@ all_vocabulary = [ {
     "danish": "ganske",
     "german": "ganz, ziehmlich",
     "english": "quite, perfectly, entirely",
-    "verb": "ganske",
+    "other": "adv",
     "level": 2
   },
   {
     "danish": "tilsvarende",
     "german": "entsprechend, ähnlich",
     "english": "corresponding, equivalent, analogous",
-    "verb": "tilsvarende",
+    "other": "adv",
     "level": 2
   },
   {
     "danish": "hensigtsmæssigt",
     "german": "zweckmäßig, sachdienlich",
     "english": "suitable, expediently, appropriatly",
+    "level": 2
+  },
+  {
+    "danish": "pårørende",
+    "german": "Angehörige, Verwandte",
+    "english": "relatives, next of kin",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "tryg",
+    "german": "sicher, geborgen",
+    "english": "secure, safe",
+    "adjective": "tryg, trygt, trygge",
+    "level": 2
+  },
+  {
+    "danish": "opnå",
+    "german": "obtain, acquire, achieve",
+    "english": "erreichen, erzielen",
+    "verb": "opnår, opnåede, opnået",
+    "level": 2
+  },
+  {
+    "danish": "undgå",
+    "german": "vermeiden, meiden",
+    "english": "avoid, dodge",
+    "verb": "undgår, undgik, undgået",
+    "level": 2
+  },
+  {
+    "danish": "indtil",
+    "german": "bis, bis nach, bis zu",
+    "english": "until, up to, til",
+    "other": "praep",
+    "level": 2
+  },
+  {
+    "danish": "såsom",
+    "german": "wie zum Beispiel, da, weil",
+    "english": "as for instance, since",
+    "level": 2
+  },
+  {
+    "danish": "gal",
+    "german": "wahnsinnig, verrückt, falsch",
+    "english": "crazy, mad, wrong",
+    "adjective": "gal, galt, gale",
+    "level": 2
+  },
+  {
+    "danish": "fremad",
+    "german": "vorwärts",
+    "english": "forward",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "evne",
+    "german": "Fähigkeit, Vermögen",
+    "english": "ability, power",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "latterligt",
+    "german": "lächerlich, lachhaft",
+    "english": "ridiculous",
+    "adjective": "latterlig, latterligt, latterlige",
+    "level": 2
+  },
+  {
+    "danish": "jævnlig",
+    "german": "öfters, häufig",
+    "english": "frequent, regular",
+    "adjective": "jævnlig, jævnligt, jævnlige",
+    "level": 2
+  },
+  {
+    "danish": "gren",
+    "german": "Ast, Zweig",
+    "english": "branch, twig",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "le",
+    "german": "(auf-) lachen",
+    "english": "laugh",
+    "verb": "ler, lo, let/leet",
+    "level": 2
+  },
+  {
+    "danish": "tilværelse",
+    "german": "Dasein, Leben",
+    "english": "existence, life",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "påvirke",
+    "german": "beeinflussen, einwirken",
+    "english": "influence, have effect on",
+    "verb": "påvirker, påvirkede, påvirket",
+    "level": 2
+  },
+  {
+    "danish": "tilskur",
+    "german": "Zuschauer",
+    "english": "bystander, audience",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "enerådig",
+    "german": "eigensinnig, eigenwillig",
+    "english": "wilful, stubborn",
+    "adjective": "enerådig, enerådigt, enerådige",
+    "synonym": "egenrådig",
+    "level": 2
+  },
+  {
+    "danish": "gentagelse",
+    "german": "Wiederholung",
+    "english": "repetition",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "lime",
+    "german": "leimen, kleben",
+    "english": "glue",
+    "verb": "limer, limede, limet",
+    "level": 2
+  },
+  {
+    "danish": "hukommelse",
+    "german": "Gedächtnis",
+    "english": "memory",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "skrøbelighed",
+    "german": "Zerbrechlichkeit, Zartheit",
+    "english": "fragility, frailty",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "svækkelse",
+    "german": "Schwächung, Entrkräftung",
+    "english": "weakening",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "tuske",
+    "german": "tauschen",
+    "english": "barter",
+    "verb": "tusker, tuskede, tusket",
+    "level": 2
+  },
+  {
+    "danish": "vælte",
+    "german": "umwerfen, umkippen",
+    "english": "overturn, fall over",
+    "verb": "vælter, væltede, væltet",
+    "level": 2
+  },
+  {
+    "danish": "appelsag",
+    "german": "Berufungsverfahren",
+    "english": "appeal case",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "gemme",
+    "german": "verstecken, aufbewahren",
+    "english": "keep, hide",
+    "verb": "gemmer, gemte, gemt",
+    "level": 2
+  },
+  {
+    "danish": "tolke",
+    "german": "dolmetschen, interpretieren",
+    "english": "interpret, explain",
+    "verb": "tolker, tolkede, tolket",
+    "level": 2
+  },
+  {
+    "danish": "oplysning",
+    "german": "Information, Beleuchtung",
+    "english": "information, lighting",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "arv",
+    "german": "Erbe, Erbschaft",
+    "english": "inheritance, legacy",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "trofast",
+    "german": "treu, anhänglich",
+    "english": "faithful, loyal",
+    "adjective": "trofast, trofast, trofaste",
+    "level": 2
+  },
+  {
+    "danish": "lidenskabelig",
+    "german": "leidenschaftlich",
+    "english": "passionately",
+    "adjective": "lidenskabelig, lidenskabeligt, lidenskabelige",
+    "level": 2
+  },
+  {
+    "danish": "folkefærd",
+    "german": "Menschenschlag, Volksgruppe",
+    "english": "race",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "sædvanligvis",
+    "german": "gewöhnlich, in der Regel",
+    "english": "generally, usually",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "pudsig",
+    "german": "putzig",
+    "english": "funny, droll",
+    "adjective": "pudsig, pudsigt, pudsige",
+    "level": 2
+  },
+  {
+    "danish": "fremmed",
+    "german": "fremd, ausländisch",
+    "english": "unfamiliar, foreign",
+    "adjective": "fremmed, fremmed, fremmede",
+    "level": 2
+  },
+  {
+    "danish": "omfavne",
+    "german": "umarmen",
+    "english": "embrace, hug",
+    "verb": "omfavner, omfavnede, omfavnet",
+    "level": 2
+  },
+  {
+    "danish": "søren",
+    "german": "zum Teufel (Schimpfwort)",
+    "english": "satan, devil (swear word)",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "trusel",
+    "german": "(Be-) Drohung",
+    "english": "threat",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "peger",
+    "german": "zeigen, deuten",
+    "english": "point",
+    "verb": "peger, pegede, peget",
+    "level": 2
+  },
+  {
+    "danish": "udfald",
+    "german": "Ausgang, Ergebnis",
+    "english": "result, outcome",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "dyd",
+    "german": "Tugend, Unschuld",
+    "english": "virtue",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "bleg",
+    "german": "bleich, blass",
+    "english": "pale",
+    "adjective": "bleg, blegt, blege",
+    "level": 2
+  },
+  {
+    "danish": "æde",
+    "german": "futtern, fressen",
+    "english": "feed (animals)",
+    "verb": "æde, åd, ædt",
     "level": 2
   }
 ];
