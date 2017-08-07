@@ -68,11 +68,21 @@ Template.ColorWordLayout.events( {
 
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) { /*most significant*/
       if ( xDiff > 0 ) {
-        /* left swipe */
-        alert( "left swipe" );
+        /* left swipe next*/
+        search = decodeURIComponent( Session.get( 'next' ) );
+        if ( Common.shouldWeShowTranslationFirst() ) {
+          return;
+        }
+        Session.set( 'gt', Repo.getSingleWord( search ) );
+        window.scrollTo( 0, 0 );
       } else {
-        /* right swipe */
-        console.log( "right swipe" );
+        /* right swipe prev*/
+        search = decodeURIComponent( Session.get( 'prev' ) );
+        if ( Common.shouldWeShowTranslationFirst() ) {
+          return;
+        }
+        Session.set( 'gt', Repo.getSingleWord( search ) );
+        window.scrollTo( 0, 0 );
       }
     } else {
       if ( yDiff > 0 ) {
@@ -84,6 +94,10 @@ Template.ColorWordLayout.events( {
     /* reset values */
     Session.set( 'colorWordX', null );
     Session.set( 'colorWordY', null );
+  },
+
+  test() {
+    alert( 'test' );
   },
 
 } );
