@@ -212,7 +212,7 @@ all_vocabulary = [ {
     "danish": "danne",
     "german": "bilden, gestalten",
     "english": "form, shape",
-    "verb": "danner, dannede, dannet",
+    "verb": "standard",
     "level": 2
   },
   {
@@ -889,7 +889,7 @@ all_vocabulary = [ {
     "danish": "tilrettelægge",
     "german": "zurechtlegen, organisieren",
     "english": "arrange, organize",
-    "verb": "tilrettelægger, tilrettelæggde, tilrettelagt",
+    "verb": "tilrettelægger, tilrettelagde, tilrettelagt",
     "level": 2
   },
   {
@@ -936,8 +936,8 @@ all_vocabulary = [ {
   },
   {
     "danish": "vis",
-    "german": "wise",
-    "english": "weise",
+    "german": "weise",
+    "english": "wise",
     "adjective": "vis, vist, vise",
     "level": 2
   },
@@ -1078,6 +1078,7 @@ all_vocabulary = [ {
     "danish": "udbrud",
     "german": "Ausbruch, Ausruf",
     "english": "outbreak, outburst",
+    "noun": "t",
     "level": 2
   },
   {
@@ -1112,6 +1113,7 @@ all_vocabulary = [ {
     "danish": "hensigtsmæssigt",
     "german": "zweckmäßig, sachdienlich",
     "english": "suitable, expediently, appropriatly",
+    "other": "adv",
     "level": 2
   },
   {
@@ -1153,6 +1155,7 @@ all_vocabulary = [ {
     "danish": "såsom",
     "german": "wie zum Beispiel, da, weil",
     "english": "as for instance, since",
+    "other": "konj",
     "level": 2
   },
   {
@@ -1414,5 +1417,249 @@ all_vocabulary = [ {
     "english": "feed (animals)",
     "verb": "æde, åd, ædt",
     "level": 2
+  },
+  {
+    "danish": "ytre",
+    "german": "äußern, bekunden",
+    "english": "utter, express",
+    "verb": "ytrer, ytrede, ytret",
+    "level": 2
+  },
+  {
+    "danish": "bortmane",
+    "german": "verbannen",
+    "english": "exorcise",
+    "verb": "bortmaner, bortmanede, bortmanet",
+    "level": 2
+  },
+  {
+    "danish": "vidtgående",
+    "german": "weitgehend",
+    "english": "extensive, far reaching",
+    "adjective": "vidtgående",
+    "level": 2
+  },
+  {
+    "danish": "fælde",
+    "german": "fällen, erlegen",
+    "english": "cut down, fell",
+    "verb": "fælder, fældede, fældet",
+    "level": 2
+  },
+  {
+    "danish": "sande",
+    "german": "zugeben, einräumen",
+    "english": "concede, admit",
+    "verb": "sander, sandede, sandet",
+    "level": 2
+  },
+  {
+    "danish": "vielse",
+    "german": "Trauung",
+    "english": "wedding",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "løfte",
+    "german": "heben",
+    "english": "lift",
+    "verb": "løfter, løftede, løftet",
+    "level": 2
+  },
+  {
+    "danish": "opfatte",
+    "german": "auffassen, verstehen",
+    "english": "understand, grasp",
+    "verb": "opfatter, opfattede, opfattet",
+    "level": 2
+  },
+  {
+    "danish": "udi",
+    "german": "in (draußen)",
+    "english": "in (outside)",
+    "other": "prep",
+    "synonym": "i",
+    "level": 2
+  },
+  {
+    "danish": "færd",
+    "german": "Verhalten, Fahrt",
+    "english": "journey, conduct",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "vove",
+    "german": "wage",
+    "english": "dare, risk",
+    "verb": "vover, vovede, vovet",
+    "level": 2
+  },
+  {
+    "danish": "geråde",
+    "german": "geraten (in etwas)",
+    "english": "get (into sth)",
+    "verb": "geråder, gerådede, gerådet",
+    "level": 2
+  },
+  {
+    "danish": "nikke",
+    "german": "nicken",
+    "english": "nod",
+    "verb": "nikker, nikkede, nikket",
+    "level": 2
+  },
+  {
+    "danish": "måbe",
+    "german": "staunen, gaffen",
+    "english": "gape, gawk",
+    "verb": "måber, måbede, måbet",
+    "level": 2
+  },
+  {
+    "danish": "ræddelig",
+    "german": "ensetzlich, schrecklich",
+    "english": "redoutable, fearsome",
+    "adjective": "ræddelig, ræddeligt, ræddelige",
+    "level": 2
+  },
+  {
+    "danish": "nøjes",
+    "german": "mit etw. vorlieb nehmen",
+    "english": "make do, settle",
+    "verb": "nøjes, nøjedes, nøjedes",
+    "level": 2
+  },
+  {
+    "danish": "netop",
+    "german": "eben, genau",
+    "english": "just, exactly",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "ubeskeden",
+    "german": "unbescheiden, übertrieben",
+    "english": "immoderate, forward",
+    "adjective": "ubeskeden, ubeskeden, ubeskeden",
+    "level": 2
+  },
+  {
+    "danish": "sladder",
+    "german": "Klatsch",
+    "english": "gossip",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "forsmå",
+    "german": "verschmähen, ablehnen",
+    "english": "refuse, reject",
+    "verb": "forsmår, forsmåede, forsmået",
+    "level": 2
+  },
+  {
+    "danish": "nå",
+    "german": "erreichen, schaffen",
+    "english": "reach, get to",
+    "verb": "når, nåede, nået",
+    "level": 2
+  },
+  {
+    "danish": "samvittighed",
+    "german": "Gewissen",
+    "english": "conscience",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "undtagelse",
+    "german": "Ausnahme",
+    "english": "exception",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "ånd",
+    "german": "Geist",
+    "english": "spirit, ghost",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "uundværlig",
+    "german": "unentbehrlich",
+    "english": "indispensable",
+    "adjective": "uundværlig, uundværligt, uundværlige",
+    "level": 2
+  },
+  {
+    "danish": "vedblive",
+    "german": "andauern, fortfahren",
+    "english": "continue, persist",
+    "verb": "vedbliver, vedblev, vedblevet",
+    "level": 2
+  },
+  {
+    "danish": "skønt",
+    "german": "obwohl, obgleich (schön)",
+    "english": "though, still",
+    "other": "konj",
+    "level": 2
+  },
+  {
+    "danish": "hugge",
+    "german": "hauen, abschlagen",
+    "english": "cut, slash",
+    "verb": "hugger, huggede, hugget"
+  },
+  {
+    "danish": "sårbar",
+    "german": "verwundbar, verletzbar",
+    "english": "verwundbar, verletzlich",
+    "adjective": "standard"
+  },
+  {
+    "danish": "morsom",
+    "german": "lustig, amüsant",
+    "english": "nice, pleasant",
+    "adjective": "morsom, morsomt, morsomme"
+  },
+  {
+    "danish": "snævre",
+    "german": "eingrenzen, begrenzen auf",
+    "english": "narrow sth. down",
+    "verb": "standard"
+  },
+  {
+    "danish": "tumle",
+    "german": "bewältigen, im Griff haben",
+    "english": "tumble, manage, control",
+    "verb": "standard"
+  },
+  {
+    "danish": "temmelig",
+    "german": "ziemlich",
+    "english": "rather, somewhat",
+    "adjective": "temmelig"
+  },
+  {
+    "danish": "tilbøjelig",
+    "german": "geneigt, anfällig",
+    "english": "inclined, disposed",
+    "adjective": "standard"
+  },
+  {
+    "danish": "vitterlig",
+    "german": "offenkundig, bekannt",
+    "english": "notorious, actually",
+    "adjective": "standard"
+  },
+  {
+    "danish": "aldeles",
+    "german": "völlig, ganz",
+    "english": "quite, totally",
+    "other": "adv"
   }
 ];

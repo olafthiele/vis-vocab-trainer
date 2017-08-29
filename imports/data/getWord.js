@@ -149,12 +149,22 @@ class VocabularyRepository {
     }
     if ( w.adjective ) {
       type = 2;
-      extra = w.adjective;
+      if ( w.adjective == 'standard' ) {
+        // set endings automatically
+        extra = w.danish + ', -t, -e';
+      } else {
+        extra = w.adjective;
+      }
     }
     if ( w.verb ) {
       type = 3;
       trans = 'at ' + trans;
-      extra = w.verb;
+      if ( w.verb == 'standard' ) {
+        // set endings automatically
+        extra = w.danish + 'r, -de, -t';
+      } else {
+        extra = w.verb;
+      }
     }
     if ( w.other ) {
       type = 4;
