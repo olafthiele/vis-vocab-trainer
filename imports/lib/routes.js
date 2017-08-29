@@ -1,3 +1,5 @@
+import { Common } from './common.js';
+
 FlowRouter.route( '/classic', { // was /
   name: 'home',
   action() {
@@ -8,6 +10,14 @@ FlowRouter.route( '/classic', { // was /
 FlowRouter.route( '/', { // was /colors
   name: 'colors',
   action() {
+    BlazeLayout.render( 'ColorsLayout' );
+  }
+} );
+
+FlowRouter.route( '/en', { // start in english
+  name: 'english',
+  action() {
+    Common.switchLanguage();
     BlazeLayout.render( 'ColorsLayout' );
   }
 } );
