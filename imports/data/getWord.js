@@ -182,6 +182,7 @@ class VocabularyRepository {
       if ( w.german === '' ) foundError += ' * No German translation * ';
       if ( w.english === '' ) foundError += ' * No English translation * ';
       if ( this.getSimpleWord( w ).type === 'type0' ) foundError += ' * No type given * ';
+      if ( !w.level ) foundError += ' * No level given * ';
       if ( foundError !== '' ) {
         erronousWords.push( 'Word: ' + w.danish + ' * ' + foundError );
       }
