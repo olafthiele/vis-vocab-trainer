@@ -21,6 +21,10 @@ Template.ColorWordLayout.onRendered( function() {
 } );
 
 Template.ColorWordLayout.events( {
+  'click .colorHeader' () {
+    BlazeLayout.render( 'ColorsLayout' );
+  },
+
   'click .prev' () {
     var search = decodeURIComponent( Session.get( 'prev' ) );
     if ( Common.shouldWeShowTranslationFirst() ) {
