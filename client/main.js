@@ -39,7 +39,7 @@ if ( Meteor.isClient ) {
   // console.log( 'word list: ' + Session.get( 'currentWordList' ).toSource() );
   // console.log( 'Language set to: ' + Session.get( 'language' ) );
   // set colors so they can be used from session
-  Common.setColors( 0 );
+  Common.setColors( 1 );
   // console.log( 'test' + Meteor.settings.public.debug );
 }
 

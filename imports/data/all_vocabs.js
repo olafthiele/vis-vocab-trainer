@@ -943,15 +943,15 @@ all_vocabulary = [ {
   },
   {
     "danish": "heldigvis",
-    "german": "luckily, fortunately",
-    "english": "glücklicherweise",
+    "german": "glücklicherweise",
+    "english": "luckily, fortunately",
     "other": "adv",
     "level": 2
   },
   {
     "danish": "altså",
-    "german": "so, therefore, consequently",
-    "english": "also, somit, demnach",
+    "german": "also, somit, demnach",
+    "english": "so, therefore, consequently",
     "other": "adv",
     "level": 2
   },
@@ -1132,8 +1132,8 @@ all_vocabulary = [ {
   },
   {
     "danish": "opnå",
-    "german": "obtain, acquire, achieve",
-    "english": "erreichen, erzielen",
+    "german": "erreichen, erzielen",
+    "english": "obtain, acquire, achieve",
     "verb": "opnår, opnåede, opnået",
     "level": 2
   },
@@ -1612,54 +1612,337 @@ all_vocabulary = [ {
     "danish": "hugge",
     "german": "hauen, abschlagen",
     "english": "cut, slash",
-    "verb": "hugger, huggede, hugget"
+    "verb": "hugger, huggede, hugget",
+    "level": 2
   },
   {
     "danish": "sårbar",
     "german": "verwundbar, verletzbar",
     "english": "verwundbar, verletzlich",
-    "adjective": "standard"
+    "adjective": "standard",
+    "level": 2
   },
   {
     "danish": "morsom",
     "german": "lustig, amüsant",
     "english": "nice, pleasant",
-    "adjective": "morsom, morsomt, morsomme"
+    "adjective": "morsom, morsomt, morsomme",
+    "level": 2
   },
   {
     "danish": "snævre",
     "german": "eingrenzen, begrenzen auf",
     "english": "narrow sth. down",
-    "verb": "standard"
+    "verb": "standard",
+    "level": 2
   },
   {
     "danish": "tumle",
     "german": "bewältigen, im Griff haben",
     "english": "tumble, manage, control",
-    "verb": "standard"
+    "verb": "standard",
+    "level": 2
   },
   {
     "danish": "temmelig",
     "german": "ziemlich",
     "english": "rather, somewhat",
-    "adjective": "temmelig"
+    "adjective": "temmelig",
+    "level": 2
   },
   {
     "danish": "tilbøjelig",
     "german": "geneigt, anfällig",
     "english": "inclined, disposed",
-    "adjective": "standard"
+    "adjective": "standard",
+    "level": 2
   },
   {
     "danish": "vitterlig",
     "german": "offenkundig, bekannt",
     "english": "notorious, actually",
-    "adjective": "standard"
+    "adjective": "standard",
+    "level": 2
   },
   {
     "danish": "aldeles",
     "german": "völlig, ganz",
     "english": "quite, totally",
-    "other": "adv"
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "budskab",
+    "german": "Botschaft, Nachricht",
+    "english": "news, message",
+    "noun": "t",
+    "synonym": "besked",
+    "level": 2
+  },
+  {
+    "danish": "myndighed",
+    "german": "Behörde",
+    "english": "authority",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "klode",
+    "german": "Himmelskörper, Erde",
+    "english": "globe, planet",
+    "noun": "n",
+    "synonym": "jorden",
+    "level": 2
+  },
+  {
+    "danish": "buldre",
+    "german": "poltern, toben",
+    "english": "rumble, thunder",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "sagesløs",
+    "german": "unschuldig, schuldlos",
+    "english": "blameless, harmless",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "trængsel",
+    "german": "Bedrängnis, Gedränge",
+    "english": "adversity, crowd",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "skid",
+    "german": "Scheiße, Furz",
+    "english": "shit, fart",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "blot",
+    "german": "bloß, nur",
+    "english": "only, simple",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "i træk",
+    "german": "hintereinander, in Folg",
+    "english": "in a row, running",
+    "other": "???",
+    "level": 2
+  },
+  {
+    "danish": "rumme",
+    "german": "enthalten, fassen",
+    "english": "contain, hold",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "afbrydelse",
+    "german": "Abbruch, Ausfall",
+    "english": "interruption, break",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "adskille",
+    "german": "abtrennen, abschneiden",
+    "english": "separate, segregate",
+    "verb": "adskiller, adskilte, adskilt",
+    "level": 2
+  },
+  {
+    "danish": "præstation",
+    "german": "Leistung, Darbietung",
+    "english": "performance, effort",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "væv",
+    "german": "Gewebe, Netz",
+    "english": "web, tissue",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "smutte",
+    "german": "schlüpfen, huschen",
+    "english": "nip, slip",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "rømme",
+    "german": "räumen, verlassen, davonlaufen",
+    "english": "leave, vacate, clear",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "svigte",
+    "german": "versagen, ausfallen",
+    "english": "fail, let down",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "rive",
+    "german": "reißen, zerren",
+    "english": "tear, scratch",
+    "verb": "river, rev, revet",
+    "level": 2
+  },
+  {
+    "danish": "hidrøre",
+    "german": "herrühren",
+    "english": "to stem from (idiomatic)",
+    "verb": "hidrører, hidrørte, hidrørt",
+    "level": 2
+  },
+  {
+    "danish": "hvorvidt",
+    "german": "inwieweit, inwiefern",
+    "english": "whether, how far",
+    "other": "konj",
+    "level": 2
+  },
+  {
+    "danish": "medhold",
+    "german": "‎Zustimmung",
+    "english": "being in favor of",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "påhvile",
+    "german": "obliegen",
+    "english": "rest with, lie with",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "stakkels",
+    "german": "arm",
+    "english": "poor, unfortunate",
+    "adjective": "stakkels, stakkels, stakkels",
+    "level": 2
+  },
+  {
+    "danish": "saftig",
+    "german": "saftig",
+    "english": "juicy, racy",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "snage",
+    "german": "schnüffeln",
+    "english": "pry",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "omtrent",
+    "german": "ungefähr, etwa",
+    "english": "about, approximately",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "hidtil",
+    "german": "bisher, bis jetzt",
+    "english": "until now, so far",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "uhyre",
+    "german": "ungeheuer, riesig",
+    "english": "huge, enormous",
+    "adjective": "uhyre",
+    "level": 2
+  },
+  {
+    "danish": "fiksfakseri",
+    "german": "Fisimatenten",
+    "english": "shenanigangs",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "overskuelig",
+    "german": "übersichtlich, überschaubar",
+    "english": "clear, forseeable",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "mase",
+    "german": "zerquetschen, sich abmühen",
+    "english": "crush, squeeze",
+    "verb": "maser, masede/maste, maset/mast",
+    "level": 2
+  },
+  {
+    "danish": "skik",
+    "german": "Brauch, Sitte, Gewohnheit",
+    "english": "custom, practice",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "trives",
+    "german": "gedeihen, sich wohl fühlen",
+    "english": "be happy, be doing fine",
+    "verb": "trives, trivedes, trivedes",
+    "level": 2
+  },
+  {
+    "danish": "nedad",
+    "german": "abwärts, hinunter",
+    "english": "downwards",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "ingenlunde",
+    "german": "keineswegs, keinesfalls",
+    "english": "by no means, not at all",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "antyde",
+    "german": "andeuten",
+    "english": "hint, suggest",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "tilegne",
+    "german": "widmen",
+    "english": "dedicate",
+    "level": 2
+  },
+  {
+    "danish": "ildebefinde",
+    "german": "Unwohlsein",
+    "english": "indisposition",
+    "other": "???",
+    "level": 2
+  },
+  {
+    "danish": "sjusk / fusk",
+    "german": "Pfusch",
+    "english": "shabby workmanship",
+    "noun": "t",
+    "level": 2
   }
 ];
