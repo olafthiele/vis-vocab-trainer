@@ -19,9 +19,6 @@ import '../imports/operations/test.js';
 
 import './main.html';
 
-// TODO: - bessere Darstellung von Ergebnis !!!
-//  -Tinder paging
-
 if ( Meteor.isClient ) {
   Session.set( 'language', 'de' );
   if ( Meteor.settings.public.debug ) {

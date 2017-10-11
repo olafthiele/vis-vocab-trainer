@@ -820,6 +820,7 @@ all_vocabulary = [ {
     "german": "Benehmen, Führung, Verhalten",
     "english": "behaviour, conduct, manners",
     "noun": "n",
+    "synonym": "adfærd",
     "level": 2
   },
   {
@@ -1731,7 +1732,7 @@ all_vocabulary = [ {
   },
   {
     "danish": "i træk",
-    "german": "hintereinander, in Folg",
+    "german": "hintereinander, in Folge",
     "english": "in a row, running",
     "other": "???",
     "level": 2
@@ -1929,6 +1930,7 @@ all_vocabulary = [ {
     "danish": "tilegne",
     "german": "widmen",
     "english": "dedicate",
+    "verb": "standard",
     "level": 2
   },
   {
@@ -1943,6 +1945,167 @@ all_vocabulary = [ {
     "german": "Pfusch",
     "english": "shabby workmanship",
     "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "bagud",
+    "german": "nach hinten, rückwärts",
+    "english": "to the rear, behind",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "sidenhen / siden hen",
+    "german": "später",
+    "english": "since",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "gabe",
+    "german": "gähnen",
+    "english": "yawn, gape",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "vække",
+    "german": "erregen, erwecken",
+    "english": "awaken, arouse",
+    "verb": "vækker, vækkede/ vakte, vækket/ vakt",
+    "level": 2
+  },
+  {
+    "danish": "dunke",
+    "german": "schlagen, hämmern",
+    "english": "knock, thump",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "rar",
+    "german": "nett, gemütlich",
+    "english": "pleasant, nice",
+    "adjective": "standard",
+    "level": 1
+  },
+  {
+    "danish": "blufærdig",
+    "german": "schamhaft, verschämt",
+    "english": "modest, shy",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "mareridt",
+    "german": "Alptraum",
+    "english": "nightmare",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "vantro",
+    "german": "Unglaube",
+    "english": "disbelief",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "ære",
+    "german": "Ehre",
+    "english": "honour",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "foræring",
+    "german": "Geschenk",
+    "english": "present, gift",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "adfærd",
+    "german": "Verhaltensweise, Benehmen",
+    "english": "behaviour, demeanour",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "skelne",
+    "german": "unterscheiden, erkennen",
+    "english": "make out, distinguish",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "volapyk",
+    "german": "Kunstsprache, Geplapper",
+    "english": "gibberish",
+    "noun": "none",
+    "level": 2
+  },
+  {
+    "danish": "tvetydig",
+    "german": "zweideutig",
+    "english": "ambiguous, contradictory",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "på tværs",
+    "german": "quer über alle, übergreifend",
+    "english": "across, crosswise",
+    "other": "???",
+    "level": 2
+  },
+  {
+    "danish": "ophidse",
+    "german": "aufhetzen, erregen",
+    "english": "make furious, excite",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "slægtning",
+    "german": "Verwandte",
+    "english": "relative, kinsman",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "træde",
+    "german": "(auf-) treten, einfädeln",
+    "english": "tread, step",
+    "verb": "træder, trådte, trådt",
+    "level": 2
+  },
+  {
+    "danish": "gerning",
+    "german": "Tat, Werk, Arbeit",
+    "english": "action, deed, work",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "udsagn",
+    "german": "Aussage",
+    "english": "statement, assertion",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "anelse",
+    "german": "Ahnung, ein bisschen, Spur",
+    "english": "hunch, a suspicion of",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "skilsmisse",
+    "german": "Scheidung",
+    "english": "divorce",
+    "noun": "n",
     "level": 2
   }
 ];
