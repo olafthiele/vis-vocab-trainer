@@ -1,6 +1,7 @@
 {
   "test": true,
   "public": {
-    "debug": true
+    "debug": true,
+    "vokabUrl" : "https://docs.google.com/spreadsheets/"
     }
    }

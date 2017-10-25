@@ -23,4 +23,8 @@ Template.ManagementLayout.helpers( {
   content: function() {
     return Template.instance().content.get();
   },
+  vokabUrl: function() {
+    return Meteor.settings.public.vokabUrl;
+  },
+
 } );

@@ -1,3 +1,4 @@
 node_modules/
 imports/archive
 Thumbs.db
+.settings-local.json

@@ -2107,5 +2107,201 @@ all_vocabulary = [ {
     "english": "divorce",
     "noun": "n",
     "level": 2
+  },
+  {
+    "danish": "hævde",
+    "german": "behaupten, geltend machen",
+    "english": "claim, maintain, insist on",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "sparke",
+    "german": "treten, jmd einen Tritt geben",
+    "english": "kick",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "påpege",
+    "german": "auf etw. hinweisen, hervorheben",
+    "english": "point out, call attention to",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "afvige",
+    "german": "abweichen",
+    "english": "differ, deviate",
+    "verb": "afgiver, afgev, afgevet",
+    "level": 2
+  },
+  {
+    "danish": "orke",
+    "german": "können, vermögen",
+    "english": "be able to, be capable of",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "udskamme",
+    "german": "ausschimpfen",
+    "english": "to tell sb to be ashamed of sth",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "ødsle",
+    "german": "verschwenderisch sein, großzügig",
+    "english": "wasteful, extravagant",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "sindrig",
+    "german": "sinnreich, erfinderisch",
+    "english": "ingenious, clever",
+    "adjective": "standard",
+    "level": 2
+  },
+  {
+    "danish": "pludder",
+    "german": "Morast, Schlamm",
+    "english": "mud",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "i søndags",
+    "german": "letzten Sonntag",
+    "english": "last Sunday",
+    "other": "gra",
+    "level": 2
+  },
+  {
+    "danish": "på søndag",
+    "german": "nächsten Sonntag",
+    "english": "next Sunday",
+    "other": "gra",
+    "level": 2
+  },
+  {
+    "danish": "sidste forår",
+    "german": "letztes Frühjahr",
+    "english": "last spring",
+    "other": "gra",
+    "level": 2
+  },
+  {
+    "danish": "til efteråret",
+    "german": "nächstes Frühjahr",
+    "english": "next spring",
+    "other": "gra",
+    "level": 2
+  },
+  {
+    "danish": "ydmyge",
+    "german": "demütigen",
+    "english": "humiliate",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "skred",
+    "german": "Erdrutsch, Wendung",
+    "english": "landslide, collapse",
+    "noun": "t",
+    "level": 2
+  },
+  {
+    "danish": "udmærket",
+    "german": "ausgezeichnet, vortrefflich",
+    "english": "excellent, splendid",
+    "adjective": "udmærket, udmærket, udmærkede",
+    "level": 2
+  },
+  {
+    "danish": "afsky",
+    "german": "verabscheuen, hassen",
+    "english": "hate, detest",
+    "verb": "afskyr, afskyede, afskyet",
+    "level": 2
+  },
+  {
+    "danish": "håne",
+    "german": "(ver-) höhnen",
+    "english": "taunt, mock",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "skæbne",
+    "german": "Schicksal",
+    "english": "fate, lot",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "tæt",
+    "german": "dicht",
+    "english": "dense, tight",
+    "adjective": "tæt, tæt, tætte",
+    "level": 2
+  },
+  {
+    "danish": "mage",
+    "german": "Gegenstück, Gatte/in",
+    "english": "peer, spouse",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "smide",
+    "german": "schmeißen",
+    "english": "throw, toss",
+    "verb": "smider, smed, smidt",
+    "level": 2
+  },
+  {
+    "danish": "ulmende",
+    "german": "schwelen",
+    "english": "smouldering, simmering",
+    "adjective": "ulmende",
+    "level": 2
+  },
+  {
+    "danish": "tilskyndelse",
+    "german": "Anregung, Impuls",
+    "english": "prompting, impulse",
+    "noun": "n",
+    "level": 2
+  },
+  {
+    "danish": "have råd til ngt.",
+    "german": "es sich leisten können",
+    "english": "to be able to afford sth.",
+    "other": "???",
+    "level": 2
+  },
+  {
+    "danish": "nødig(t)",
+    "german": "nötig, ungern",
+    "english": "reluctantly, necessary",
+    "other": "adv",
+    "level": 2
+  },
+  {
+    "danish": "stole på",
+    "german": "auf etw. verlassen, auf etw. vertrauen",
+    "english": "to rely on sth, to depend on sth.",
+    "verb": "standard",
+    "level": 2
+  },
+  {
+    "danish": "ynder",
+    "german": "Liebhaber, Freund",
+    "english": "lover, admirer",
+    "noun": "n",
+    "level": 2
   }
 ];
